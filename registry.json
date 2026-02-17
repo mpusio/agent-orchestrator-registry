@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-02-17T00:00:00Z",
+  "marketplaces": [
+    {
+      "id": "claude-plugins-official",
+      "repo": "anthropics/claude-plugins",
+      "description": "Official Anthropic plugin collection with curated, high-quality plugins",
+      "tags": ["official", "curated", "anthropic"],
+      "featured": true
+    }
+  ],
+  "featuredPlugins": [
+    {
+      "name": "pyright-lsp",
+      "marketplace": "claude-plugins-official",
+      "description": "Python type checking and language server",
+      "tags": ["python", "lsp", "typing"],
+      "category": "language-support"
+    }
+  ]
+}

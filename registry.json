@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-02-17T22:00:00Z",
+  "lastUpdated": "2026-02-17T22:30:00Z",
   "marketplaces": [
     {
       "id": "claude-plugins-official",
-      "repo": "anthropics/claude-plugins",
-      "description": "Official Anthropic plugin collection with curated, high-quality plugins",
-      "tags": ["official", "curated", "anthropic"],
+      "repo": "anthropics/claude-plugins-official",
+      "description": "Official Anthropic-managed directory of high quality Claude Code plugins — LSPs, productivity tools, and integrations",
+      "tags": ["official", "curated", "anthropic", "lsp", "integrations"],
       "featured": true
     },
     {
@@ -60,6 +60,20 @@
     }
   ],
   "featuredPlugins": [
+    {
+      "name": "pyright-lsp",
+      "marketplace": "claude-plugins-official",
+      "description": "Python language server (Pyright) for type checking and code intelligence",
+      "tags": ["python", "lsp", "typing"],
+      "category": "development"
+    },
+    {
+      "name": "typescript-lsp",
+      "marketplace": "claude-plugins-official",
+      "description": "TypeScript/JavaScript language server for enhanced code intelligence",
+      "tags": ["typescript", "javascript", "lsp"],
+      "category": "development"
+    },
     {
       "name": "ui-ux-pro-max",
       "marketplace": "ui-ux-pro-max-skill",

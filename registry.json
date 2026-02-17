@@ -1,62 +1,62 @@
 {
   "version": 1,
-  "lastUpdated": "2026-02-17T22:30:00Z",
+  "lastUpdated": "2026-02-17T22:45:00Z",
   "marketplaces": [
     {
       "id": "claude-plugins-official",
       "repo": "anthropics/claude-plugins-official",
       "description": "Official Anthropic-managed directory of high quality Claude Code plugins — LSPs, productivity tools, and integrations",
       "tags": ["official", "curated", "anthropic", "lsp", "integrations"],
-      "featured": true
+      "pluginCount": 45
     },
     {
       "id": "superpowers",
       "repo": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works",
       "tags": ["skills", "methodology", "agentic"],
-      "featured": false
+      "pluginCount": 1
     },
     {
       "id": "ui-ux-pro-max-skill",
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "UI/UX design intelligence with 67 styles, 96 palettes, 57 font pairings, 25 charts, and 13 stack guidelines",
       "tags": ["ui", "ux", "design", "typography", "color-palette", "accessibility"],
-      "featured": true
+      "pluginCount": 1
     },
     {
       "id": "claude-code-workflows",
       "repo": "wshobson/agents",
       "description": "Production-ready workflow orchestration with 73 plugins, 112 agents, and 146 skills",
       "tags": ["workflows", "agents", "debugging", "git", "documentation"],
-      "featured": true
+      "pluginCount": 73
     },
     {
       "id": "taskmaster",
       "repo": "eyaltoledano/claude-task-master",
       "description": "AI-powered task management with intelligent orchestration, complexity analysis, and automated coordination",
       "tags": ["task-management", "orchestration", "automation", "productivity"],
-      "featured": true
+      "pluginCount": 1
     },
     {
       "id": "claude-mem",
       "repo": "thedotmack/claude-mem",
       "description": "Persistent memory system for Claude Code — context compression across sessions",
       "tags": ["memory", "persistence", "context"],
-      "featured": true
+      "pluginCount": 1
     },
     {
       "id": "everything-claude-code",
       "repo": "affaan-m/everything-claude-code",
       "description": "Battle-tested agents, skills, hooks, commands, and rules from an Anthropic hackathon winner",
       "tags": ["agents", "skills", "hooks", "tdd", "code-review", "best-practices"],
-      "featured": true
+      "pluginCount": 1
     },
     {
       "id": "prompts-chat",
       "repo": "f/prompts.chat",
       "description": "Access thousands of AI prompts and skills directly in your coding assistant",
       "tags": ["prompts", "ai-tools", "productivity", "skills"],
-      "featured": true
+      "pluginCount": 1
     }
   ],
   "featuredPlugins": [
